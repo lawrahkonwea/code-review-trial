@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca:wght@300&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 50px auto;
+  background: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 380px;
+  padding: 60px;
+  margin-top: 80px;
+}
+
+.learn {
+  font-family: 'poppins', sans-serif;
+  color: white;
+}
+
+.paragraph {
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+.formation {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 5px;
+  padding: 0 50px;
+  box-shadow: 0 5px grey;
+}
+
+.form-register {
+  margin-top: 10px;
+}
+
+.btn1 {
+  border: none;
+  background: hsl(248, 32%, 49%);
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  box-shadow: 0 5px grey;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.form-input {
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid grey;
+}
+
+.reg-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+}
+
+.form-paragraph {
+  font-size: 8px;
+  margin-top: 15px;
+  color: hsl(246, 25%, 77%);
+}
+
+.form-paragraph a {
+  text-decoration: none;
+  color: red;
+}
+
+@media screen and (max-width: 769px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+
+  .content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .content2 {
+    margin-bottom: 30px;
+  }
+
+  .formation {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .btn1 {
+    position: relative;
+    left: 20px;
+    width: 400px;
+  }
+}
